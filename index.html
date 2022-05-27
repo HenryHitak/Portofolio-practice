@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link rel="stylesheet" href="./css/stylesheet.css">
     <title>practice 6</title>
 </head>
 <body>
-    
+    <main>
+        <section class="contact" id="contact">
+            <h2>
+                Contact
+            </h2>
+            <form action="send.php" method="post">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Your Name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email" name="email">
+                </div>
+                <div>
+                    <label for="subjet">Subject</label>
+                    <input type="text" name="subjet" placeholder="subject">
+                </div>
+                <textarea name="message" placeholder="Message"></textarea>
+                <div>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer id="social-media">
+        <div>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-location-pin"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+    </footer>
 </body>
 </html>
